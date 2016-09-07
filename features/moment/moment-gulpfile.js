@@ -10,7 +10,7 @@ module.exports = function($gulp) {
       'node_modules/moment/min/moment-with-locales.js',
       'node_modules/moment/min/moment-with-locales.min.js'
     ])
-      .pipe($gulp.dest('public/vendor'))
+      .pipe($gulp.dist('vendor'))
       .on('end', done);
   });
 
