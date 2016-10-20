@@ -1,23 +1,21 @@
 {
   "name": "allons-y-moment",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Publish moment to the allons-y-gulp distribution system.",
+  "license": "MIT",
+  "homepage": "http://allons-y.io",
+  "author": "CodeCorico <hello@codecorico.com>",
+  "bugs": "https://github.com/CodeCorico/allons-y-moment/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/CodeCorico/allons-y-moment.git"
   },
-  "author": "CodeCorico <hello@codecorico.com>",
-  "bugs": {
-    "url": "https://github.com/CodeCorico/allons-y-moment/issues"
-  },
-  "homepage": "https://github.com/CodeCorico/allons-y-moment",
   "engines": {
     "node": ">=4.1",
     "npm": ">=3.2"
   },
-  "license": "MIT",
   "dependencies": {
+    "allons-y-gulp": "^1.0.0",
     "moment": "^2.14.1"
   }
 }
